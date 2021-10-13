@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Oxygen:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="form-body">
+
+        <div class="uk-container">
+            <h3>Add a Clinican</h3>
+            <p class="instruction">Please verify infos below for the NPI Number
+                <span class="instruct_num">1232344454</span>, to set a password
+            </p>
+        </div>
+
+
+        <form class="uk-container main-form">
+            <fieldset class="uk-fieldset">
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">First Name <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="Enter First Name">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Last Name <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Email Address <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="email" placeholder="Enter email address">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Organization Name <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <select class="uk-select input-fields select-field" id="form-stacked-select"
+                                    placeholder="Select Roles">
+                                    <option>Option 01</option>
+                                    <option>Option 02</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Official_Credential <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="Official_Credential">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Official_Tel Number <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="tel" placeholder="Telephone Number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Official title <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="position or title">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Certification date<span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="Certification date">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Address 1 <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="756 Old Street Douala">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Address 2 <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="123 Old Street Buea">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">City <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <select class="uk-select input-fields select-field" id="form-stacked-select"
+                                    placeholder="Select Roles">
+                                    <option>Atalanta</option>
+                                    <option>Option 02</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">State <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <select class="uk-select input-fields select-field" id="form-stacked-select"
+                                placeholder="Select Roles">
+                                <option>Georgia</option>
+                                <option>Option 02</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Zip <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="Enter Zip here">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Fax <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields" type="text" placeholder="5646">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-fieldset">
+                    <div>
+                        <legend class="uk-legend">Password <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields input-field-white" type="text"
+                                placeholder="Enter password">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend class="uk-legend">Confirm Password <span class="star">*</span></legend>
+                        <div class="uk-margin">
+                            <input class="uk-input input-fields input-field-white" type="text"
+                                placeholder="Confirm Password">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">Select</label>
+                    <div class="uk-form-controls">
+                        <select class="uk-select" id="form-stacked-select">
+                            <option>Option 01</option>
+                            <option>Option 02</option>
+                        </select>
+                    </div>
+                </div> -->
+
+            </fieldset>
+            <button class="uk-button form_button">Add</button>
+        </form>
+    </div>
+</body>
+
+</html>

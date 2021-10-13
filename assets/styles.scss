@@ -1,0 +1,141 @@
+/*====== Variables ======*/
+$white-color: #fff;
+$red-color: #890620;
+$blue-color: #00b7ff;
+$form-background-color: #E1E0E0;
+$form-color: #BDBDBD;
+
+
+
+html {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+span.star {
+    color: $red-color;
+}
+
+.form-body {
+    background: #f0f0f0;
+    width: 50vw;
+    margin: 3rem auto;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+    p.instruction {
+        font-family: 'Assistant', sans-serif;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    p > span.instruct_num {
+        color: $blue-color;
+    }
+
+    form {
+        padding-top: 10%;
+    }
+
+    form.main-form {
+        padding-left: 5rem;
+    }
+
+    div.flex-fieldset {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    legend.uk-legend {
+        font-size: 1rem;
+        line-height: 0.2;
+        font-weight: 700;
+    }
+
+    // .uk-input, .uk-select, .uk-textarea {
+    //     width: 50% !important;
+    // }
+
+    .input-fields {
+        padding-right: 10rem;
+        background: $form-background-color;
+        color: $form-color;
+        font-size: 10px;
+        padding-left: 2rem;
+    }
+
+    .select-field {
+        width: 100% !important;
+    }
+
+    #form-stacked-select {
+        width: 100% !important;
+    }
+
+    // .uk-select {
+    //     padding-right: 10rem;
+    // }
+
+    .input-field-white {
+        background: $white-color !important;
+    }
+
+    .form_button {
+        background: $red-color;
+        color: $white-color;
+        text-transform: capitalize;
+    }
+
+}
+
+
+
+
+
+/*==== Media Queries ====*/
+@media screen and (max-width: 1276px) {
+    // .form-body {
+    //     width: 60vw;
+    // }
+
+    div.flex-fieldset {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .form-body {
+        width: 100%;
+    }
+
+    form.main-form {
+        padding-right: 5rem;
+    }
+
+    .input-fields {
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 320px)  {
+    form.main-form {
+        // padding-right: 16rem !important;
+        padding-left: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     form.main-form {
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .form-body {
+        width: 90vw;
+    }
+}
